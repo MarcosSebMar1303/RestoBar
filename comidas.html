@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Menú de Navegación -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="container-fluid d-flex justify-content-around align-items-center gap-2">
+                    <!-- <img src="..." alt="" width="30" height="24" class="d-inline-block align-text-top"> -->
+                    <p class="fs-4 text-center">Resto Qué Cachetada</p>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Comidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bebidas.html" target="_blank">Bebidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pedidos.html" target="_blank">Pedidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ubicacion.html" target="_blank">Ubicación</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container-fluid d-flex justify-content-around gap-3 flex-wrap mt-5"
+                <!-- Sándwiches -->
+                <div id="sandwiches" class="card" style="width: 18rem; height: 23rem;">
+                    <img src="./images/sadnwiches.jpeg" class="card-img-top img-thumbnail" alt="..." style="height: 200px;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Sándwiches</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="dropdown">
+                            <button class="btn btn-outline-warning dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ver Precios
+                            </button>
+                            <ul class="dropdown-menu container-fluid" aria-labelledby="dropdownMenuButton1">
+                                <!-- Hamburguesa -->
+                                <div class="input-group">
+                                    <li><a class="dropdown-item" href="#">Hamburguesa c/p</a></li>
+                                    <span class="input-group-text">$ 500</span>
+                                </div>
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- Milanesa -->
+                                <div class="input-group">
+                                    <li><a class="dropdown-item" href="#">Milanesa c/p</a></li>
+                                    <span class="input-group-text">$ 500</span>
+                                </div>
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- Lomito -->
+                                <div class="input-group">
+                                    <li><a class="dropdown-item" href="#">Lomito c/p</a></li>
+                                    <span class="input-group-text">$ 500</span>
+                                </div>
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- Napolitano -->
+                                <div class="input-group">
+                                    <li><a class="dropdown-item" href="#">Napolitano c/p</a></li>
+                                    <span class="input-group-text">$ 600</span>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pizzas -->
+                <div id="pizzas" class="card" style="width: 18rem; height: 23rem;">
+                    <img src="./images/pizzas.jpeg" class="card-img-top img-thumbnail" alt="..." style="height: 200px;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Pizzas</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="dropdown">
+                            <button class="btn btn-outline-warning dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ver Precios
+                            </button>
+                            <ul class="dropdown-menu container-fluid" aria-labelledby="dropdownMenuButton1">
+                                <!-- Simple -->
+                                <div class="input-group">
+                                    <li><a class="dropdown-item" href="#">Simple</a></li>
+                                    <span class="input-group-text">$ 500</span>
+                                </div>
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- Muzzarella -->
+                                <div class="input-group">
+                                    <li><a class="dropdown-item" href="#">Muzzarella</a></li>
+                                    <span class="input-group-text">$ 700</span>
+                                </div>
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- Calabresa -->
+                                <div class="input-group">
+                                    <li><a class="dropdown-item" href="#">Calabresa</a></li>
+                                    <span class="input-group-text">$ 600</span>
+                                </div>
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- Fugazzeta -->
+                                <div class="input-group">
+                                    <li><a class="dropdown-item" href="#">Fugazzeta</a></li>
+                                    <span class="input-group-text">$ 600</span>
+                                </div>
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- Jamón y Queso -->
+                                <div class="input-group">
+                                    <li><a class="dropdown-item" href="#">Jamón y Queso</a></li>
+                                    <span class="input-group-text">$ 600</span>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menú al Plato -->
+                <div id="menu-al-plato class="card" style="width: 18rem; height: 23rem;">
+                    <img src="./images/menualplato.jpeg" class="card-img-top img-thumbnail" alt="..." style="height: 200px;">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Menú al Plato</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="dropdown">
+                            <button class="btn btn-outline-warning dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ver Precios
+                            </button>
+                            <ul class="dropdown-menu container-fluid" aria-labelledby="dropdownMenuButton1">
+                                <!-- Milanesa -->
+                                <div class="input-group">
+                                    <li><a class="dropdown-item" href="#">Milanesa</a></li>
+                                    <span class="input-group-text">$ 400</span>
+                                </div>
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- Lomito -->
+                                <div class="input-group">
+                                    <li><a class="dropdown-item" href="#">Lomito</a></li>
+                                    <span class="input-group-text">$ 400</span>
+                                </div>
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- Napolitana -->
+                                <div class="input-group">
+                                    <li><a class="dropdown-item" href="#">Napolitana</a></li>
+                                    <span class="input-group-text">$ 500</span>
+                                </div>
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- Lomopizza -->
+                                <div class="input-group">
+                                    <li><a class="dropdown-item" href="#">Lomopizza c/p</a></li>
+                                    <span class="input-group-text">$ 1400</span>
+                                </div>
+                                <li><hr class="dropdown-divider"></li>
+                                <!-- 1/2 lomopizza -->
+                                <div class="input-group">
+                                    <li><a class="dropdown-item" href="#">1/2 Lomopizza c/p</a></li>
+                                    <span class="input-group-text">$ 800</span>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <nav class="bg-light mt-5">
+            <div class="container-fluid d-flex justify-content-around align-items-center flex-wrap gap-3">
+                <p class="text-center">© 2022 Diseñado por Marcos<br>Sebastián Martínez</p>
+                <div class="d-flex justify-content-around flex-wrap gap-1">
+                    <a class="navbar-brand" href="https://api.whatsapp.com/send?phone=5493704238835">
+                        <button type="button" class="btn btn-outline-success"><i class="bi bi-whatsapp"> WhatsApp</i></button>
+                    </a>
+                    <a class="navbar-brand" href="https://www.facebook.com/marcos.martinezii.3">
+                        <button type="button" class="btn btn-outline-primary"><i class="bi bi-facebook"> Facebook</i></button>
+                    </a>
+                    <a class="navbar-brand" href="https://instagram.com/sebasmtz1303?utm_medium=copy_link">
+                        <button type="button" class="btn btn-outline-danger"><i class="bi bi-instagram"> Instagram</i></button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
